@@ -52,7 +52,7 @@ För att använda er av OMDBs film-API så behöver ni först av allt ansöka om
 OMDBs film-API består av två olika typer av sökningar, en bred och en specifik. Den breda sökningen görs med en sträng som parameter och kommer att returnera de 10 första/bästa träffarna. Den breda sökningen innehåller inte särskilt mycket information utan bara det mest väsentliga som titel, poster, imdb-ID mm. URL för den breda sökningen:
 
 ```
-http://www.omdbapi.com/?apikey=[yourkey]&s=[söksträng]
+http://www.omdbapi.com/?apikey=[yourkey]&s=[söksträng]*
 ```
 
 För att göra den mer specifika sökningen behöver ni använda er av det imdb-ID som den första sökningen genererade. Denna specifika sökning kommer att returnera mer specifik information om en specifik film. URL för den specifika sökningen:
