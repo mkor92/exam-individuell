@@ -3,7 +3,7 @@ async function fetchAllMovies() {
     "https://santosnr6.github.io/Data/favoritemovies.json"
   );
   const movies = await response.json();
-  console.log(movies);
+
   return movies;
 }
 

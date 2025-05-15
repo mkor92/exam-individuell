@@ -1,22 +1,3 @@
-/*export async function displayTopMovies(fetchAllMovies) {
-  try {
-    const movies = await fetchAllMovies();
-    const top20 = movies.slice(0, 20);
-
-    const container = document.getElementById("cardContainer");
-    if (!container) {
-      console.error("cardContainer not found in DOM");
-      return;
-    }
-
-    container.innerHTML = "";
-
-    console.log("Rendering movies:", top20);
-  } catch (error) {
-    console.error("Failed to load movies:", error);
-  }
-}*/
-
 import { fetchAllMovies } from "./api.js";
 
 export async function displayTopMovies() {
